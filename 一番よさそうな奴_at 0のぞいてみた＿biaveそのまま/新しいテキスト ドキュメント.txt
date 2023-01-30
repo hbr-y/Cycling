@@ -1,0 +1,31 @@
+input_column = [
+       'station_id',
+       #'bikes_available_at0',
+       #'start_num_ave', 'end_num_ave', 
+       #'at0_st1', #'at0_st2', 'at0_st3', 'at0_st4', 'at0_st5',
+       'hour', #'hour_1', 'hour_2', 'hour_3', 'hour_4', 'hour_5', 'hour_6', 'hour_7', 'hour_8', 'hour_9', 'hour_10', 'hour_11', 'hour_12',
+       #'hour_13', 'hour_14', 'hour_15', 'hour_16', 'hour_17', 'hour_18', 'hour_19', 'hour_20', 'hour_21', 'hour_22', 'hour_23', 'hour_24',
+       'weekday_1', 'weekday_2', 'weekday_3','weekday_4', 'weekday_5', 'weekday_6', 'weekday_7',
+       'city_1', 'city_2', 'city_3', 'city_4', 'city_5',
+       'events']
+
+3.0168495435201974
+3.603519246840623
+3.015271792356461
+
+Feature Importances:
+	station_id           : 0.849035
+	hour                 : 0.105346
+	weekday_1            : 0.004510
+	weekday_2            : 0.002138
+	weekday_3            : 0.000958
+	weekday_4            : 0.000446
+	weekday_5            : 0.001557
+	weekday_6            : 0.000617
+	weekday_7            : 0.003165
+	city_1               : 0.002909
+	city_2               : 0.001647
+	city_3               : 0.001737
+	city_4               : 0.014618
+	city_5               : 0.008117
+	events               : 0.003201
